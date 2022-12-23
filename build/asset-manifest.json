@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aa6cdceb.css",
+    "main.js": "/static/js/main.71ca7e57.js",
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.368a5585e4912fc25f92.jpg",
+    "static/media/resume-webdev.pdf": "/static/media/resume-webdev.7f210497fd1709660a30.pdf",
+    "static/media/social-calendar.jpg": "/static/media/social-calendar.0a3ed184275c4d8269ad.jpg",
+    "static/media/coding-image.jpg": "/static/media/coding-image.911ff744c12ce205cf8d.jpg",
+    "static/media/wordpress-logo.png": "/static/media/wordpress-logo.a1f01134f8d947d4290c.png",
+    "static/media/pmt-site.jpg": "/static/media/pmt-site.25bf3e67ece6e4d8e0d3.jpg",
+    "static/media/zip-calculator.jpg": "/static/media/zip-calculator.a7c792aeeebc9067660c.jpg",
+    "static/media/javascript-pic.jpg": "/static/media/javascript-pic.3550e9d7a60a3506b14f.jpg",
+    "static/media/pmt-form.jpg": "/static/media/pmt-form.325cd9a835e6104ae910.jpg",
+    "static/media/currency-calculator.jpg": "/static/media/currency-calculator.90eb6f5ca65fff7f94a4.jpg",
+    "static/media/hangman.jpg": "/static/media/hangman.1b3bf3cce26dbb356765.jpg",
+    "static/media/webpack-logo.png": "/static/media/webpack-logo.8e14fc42a3276e1dbdc6.png",
+    "static/media/github-logo.png": "/static/media/github-logo.a0e3dfc921191d65e9ce.png",
+    "static/media/bootstrap-pic.jpg": "/static/media/bootstrap-pic.6bd035733d0701cf5ea4.jpg",
+    "static/media/react-pic.jpg": "/static/media/react-pic.9a98711105e2f1a87c11.jpg",
+    "static/media/webpack-pic.jpg": "/static/media/webpack-pic.33730c46ad0d9e5c662f.jpg",
+    "static/media/css-logo.png": "/static/media/css-logo.aa5f06b3d207c511d84d.png",
+    "static/media/photoshop-pic.jpg": "/static/media/photoshop-pic.e59a3ffb720d0d6d7698.jpg",
+    "static/media/github-pic.jpg": "/static/media/github-pic.0be91ae00a0ec5540c53.jpg",
+    "static/media/javascript-logo.png": "/static/media/javascript-logo.80d5e8f01a3dce618ac4.png",
+    "static/media/wordpress-pic.jpg": "/static/media/wordpress-pic.0ff64e99870f83c04ad9.jpg",
+    "static/media/photoshop-logo.png": "/static/media/photoshop-logo.b2414f54b49b67744aac.png",
+    "static/media/css-pic.jpg": "/static/media/css-pic.583b1c60cb0df70bec49.jpg",
+    "static/media/react-logo.png": "/static/media/react-logo.ab3671fc314d5a2f5c1d.png",
+    "index.html": "/index.html",
+    "main.aa6cdceb.css.map": "/static/css/main.aa6cdceb.css.map",
+    "main.71ca7e57.js.map": "/static/js/main.71ca7e57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa6cdceb.css",
+    "static/js/main.71ca7e57.js"
+  ]
+}
