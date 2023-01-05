@@ -10,18 +10,16 @@ function AboutPage() {
 
       <div className="bio-container">
         <p>
-          I am a Front-End developer with 3 years of industry experience
-          building websites with WordPress, HTML, CSS, and JavaScript. Over the
-          past year, I've adopted the React library, refining my skills and
-          developing full-fledged mobile friendly applications utilizing React
-          Js best practices. <br /> <br /> Looking to be of value to a
-          development team and learn from them. <br />
-          <br />
-          My main motivators are constant growth in all areas of life and
-          recognition by my peers. <br />
-          <br />
-          My Favorite words are consistency, perseverance, and focus. With those
-          three traits, any goal is achievable.
+          As a Front-End developer with three years of experience in the
+          industry, I have a strong foundation in building websites using
+          technologies like WordPress, HTML, CSS, and JavaScript. In the past
+          year, I have expanded my skillset by learning and using the React
+          library to create mobile-friendly applications. <br />
+          <br /> I am always looking for ways to contribute value to a
+          development team and learn from my colleagues. My main motivations in
+          life are personal growth and recognition from my peers. I believe that
+          with consistency, perseverance, and focus, any goal can be achieved.
+          These values guide me in all aspects of my work and personal life.
         </p>
 
         <div className="about-lottie-container">
