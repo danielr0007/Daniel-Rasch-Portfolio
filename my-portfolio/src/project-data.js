@@ -1,5 +1,15 @@
 const projects = [
   {
+    name: "WonderCloset E-Commerce Store",
+    image: require("./images/wondercloset.jpg"),
+    description:
+      "Welcome to my modern React e-commerce website! Powered by React, Tailwind CSS, Webpack, and Redux, this site offers a seamless shopping experience. With its sleek design, fast performance, and intuitive user interface, browsing and purchasing products is a breeze. Integrated with Redux for efficient state management, our React e-commerce website provides a visually appealing and highly functional online shopping platform.",
+    tools: ["React", "Redux", "Tailwind", "Webpack"],
+    github: "https://github.com/danielr0007/Wonder-Clothing-Apparel",
+    link: "https://wondercloset.netlify.app/",
+    position: "right",
+  },
+  {
     name: "Social Kalendar Goal App",
     image: require("./images/social-calendar.jpg"),
     description:
@@ -7,7 +17,7 @@ const projects = [
     tools: ["javascript", "java", "css", "html"],
     github: "https://github.com/danielr0007/CSocial-Kalendar-App",
     link: "https://socialkalendar.herokuapp.com/index.html",
-    position: "right",
+    position: "left",
   },
   {
     name: "New Leads Form",
@@ -17,7 +27,7 @@ const projects = [
     tools: ["javascript", "php", "css", "html"],
     github: "https://github.com/danielr0007/PMT-Form",
     link: "https://pamitierraenvios.us",
-    position: "left",
+    position: "right",
   },
   {
     name: "HangMan | React.js",
@@ -27,7 +37,7 @@ const projects = [
     tools: ["react.js", "javascript", "css", "html"],
     github: "https://github.com/danielr0007/Hangman-Game-in-React",
     link: "https://hangmanbydaniel.netlify.app",
-    position: "right",
+    position: "left",
   },
   {
     name: "PMT Business Site",
@@ -37,7 +47,7 @@ const projects = [
     tools: ["javascript", "css", "html"],
     github: "https://github.com/danielr0007/Pamitierraenvios-website",
     link: "https://www.pamitierraenvios.com",
-    position: "left",
+    position: "right",
   },
   {
     name: "Zip Income Calculator",
@@ -47,7 +57,7 @@ const projects = [
     tools: ["javascript", "API", "css", "html", "JSON"],
     github: "https://github.com/danielr0007/Zipcode-income-calculator",
     link: "https://irentcalculator.netlify.app",
-    position: "right",
+    position: "left",
   },
   {
     name: "Dollar to Pesos Calculator",
@@ -57,7 +67,7 @@ const projects = [
     tools: ["javascript", "API", "css", "html", "JSON"],
     github: "https://github.com/danielr0007/Currency-Exchange-Calculator",
     link: "https://pamitierraenvioscalculator.netlify.app",
-    position: "left",
+    position: "right",
   },
 ];
 

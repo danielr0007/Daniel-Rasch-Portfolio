@@ -1,24 +1,28 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCake } from "@fortawesome/free-solid-svg-icons";
-// import { faAddressBook } from "@fortawesome/free-regular-svg-icons";
+
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Typewriter from "typewriter-effect";
 import { NavLink } from "react-router-dom";
-import React from "react";
+import React, { useEffect } from "react";
+import { faPaperclip, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function FaceSection() {
   const [gitHubBlinkEffect, setGitHubBlinkEffect] = React.useState(false);
   const [linkedInBlinkEffect, setLinkedInBlinkEffect] = React.useState(false);
 
-  // setInterval(() => {
-  //   !gitHubBlinkEffect
-  //     ? setGitHubBlinkEffect(true)
-  //     : setGitHubBlinkEffect(false);
+  useEffect(() => {
+    const timer = setInterval(() => {
+      !gitHubBlinkEffect
+        ? setGitHubBlinkEffect(true)
+        : setGitHubBlinkEffect(false);
 
-  //   !linkedInBlinkEffect
-  //     ? setLinkedInBlinkEffect(true)
-  //     : setLinkedInBlinkEffect(false);
-  // }, 7000);
+      !linkedInBlinkEffect
+        ? setLinkedInBlinkEffect(true)
+        : setLinkedInBlinkEffect(false);
+    }, 5000);
+
+    return () => clearInterval(timer);
+  }, [gitHubBlinkEffect, linkedInBlinkEffect]);
 
   return (
     <section className="face-section-outermost-container radius">
@@ -56,9 +60,9 @@ function FaceSection() {
           <div className="social-icons">
             <a href="https://github.com/danielr0007" target="_blank">
               <FontAwesomeIcon
-                // style={
-                //   gitHubBlinkEffect ? { color: "#d0d0d0" } : { color: "purple" }
-                // }
+                style={
+                  gitHubBlinkEffect ? { color: "#d0d0d0" } : { color: "purple" }
+                }
                 className="gitgub-icon"
                 icon={faGithub}
               />
@@ -69,11 +73,11 @@ function FaceSection() {
               target="_blank"
             >
               <FontAwesomeIcon
-                // style={
-                //   linkedInBlinkEffect
-                //     ? { color: "#2e45c4" }
-                //     : { color: "#d0d0d0" }
-                // }
+                style={
+                  linkedInBlinkEffect
+                    ? { color: "#2e45c4" }
+                    : { color: "#d0d0d0" }
+                }
                 className="gitgub-icon"
                 icon={faLinkedin}
               />
@@ -83,12 +87,48 @@ function FaceSection() {
       </div>
       <div className="call-to-actions">
         <div className="download-cv">
-          <a href={require("./resume-webdev.pdf")} download>
+          <a
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "10px",
+            }}
+            href={require("./resume-webdev.pdf")}
+            download
+          >
+            <FontAwesomeIcon
+              style={{
+                padding: "8px",
+                color: "white",
+                backgroundColor: "#f6a98f",
+                borderRadius: "100%",
+              }}
+              icon={faPaperclip}
+            />
             Download CV
           </a>
         </div>
         <div className="contact-me">
-          <NavLink exact to="/contact">
+          <NavLink
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "10px",
+            }}
+            exact
+            to="/contact"
+          >
+            <FontAwesomeIcon
+              style={{
+                padding: "8px",
+                color: "white",
+                backgroundColor: "#f6a98f",
+                borderRadius: "100%",
+              }}
+              icon={faEnvelope}
+            />
             Contact Me
           </NavLink>
         </div>

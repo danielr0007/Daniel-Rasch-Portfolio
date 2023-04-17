@@ -7,10 +7,6 @@ import {
   faBrain,
   faPaperPlane,
 } from "@fortawesome/free-solid-svg-icons";
-import { faAddressBook } from "@fortawesome/free-regular-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { useState } from "react";
-import { useEffect, useRef } from "react";
 
 function Nav() {
   return (
@@ -21,7 +17,7 @@ function Nav() {
             exact
             to="/"
             style={({ isActive }) => {
-              return { color: isActive ? "#fefefe" : "#f3f3f3" };
+              return { color: isActive ? "#323232" : "#323232" };
             }}
           >
             <span>
@@ -34,7 +30,7 @@ function Nav() {
           <NavLink
             to="/resume"
             style={({ isActive }) => {
-              return { color: isActive ? "#da6d2a" : "#d0d0d0" };
+              return { color: isActive ? "#f6a98f" : "#323232" };
             }}
           >
             <span>
@@ -47,7 +43,7 @@ function Nav() {
           <NavLink
             to="/projects"
             style={({ isActive }) => {
-              return { color: isActive ? "#da6d2a" : "#d0d0d0" };
+              return { color: isActive ? "#f6a98f" : "#323232" };
             }}
           >
             <span>
@@ -61,7 +57,7 @@ function Nav() {
             exact
             to="/skills"
             style={({ isActive }) => {
-              return { color: isActive ? "#da6d2a" : "#d0d0d0" };
+              return { color: isActive ? "#f6a98f" : "#323232" };
             }}
           >
             <span>
@@ -75,7 +71,7 @@ function Nav() {
             exact
             to="/contact"
             style={({ isActive }) => {
-              return { color: isActive ? "#da6d2a" : "#d0d0d0" };
+              return { color: isActive ? "#f6a98f" : "#323232" };
             }}
           >
             <span>

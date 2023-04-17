@@ -1,10 +1,11 @@
 /* root /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 :root {
-  --main-medium-color: #162b24;
-  --orange-complimetary-color: #da6d2a;
-  --main-dark-color: #0a1813;
-  --main-light-color: #ffffff;
-  --white-text: #d0d0d0;
+  --main-medium-color: #faf6f3;
+  --orange-complimetary-color: #f6a98f;
+  --main-dark-color: #f5e5d6;
+  --main-light-color: #4c4c4c;
+  --primary-text: #5f5f5f;
+  --secondary-text: #ffffff;
   --title-font-family: "PT Sans", sans-serif;
   --main-font-family: "Roboto", sans-serif;
 }
@@ -16,7 +17,12 @@
 }
 
 body {
-  background-color: var(--main-dark-color);
+  background: linear-gradient(
+    to bottom,
+    var(--main-dark-color),
+    var(--main-dark-color),
+    white
+  );
   height: 97vh;
   width: 99vw;
   display: flex;
@@ -104,7 +110,7 @@ a:hover {
 }
 
 .non-active {
-  color: var(--white-text);
+  color: var(--secondary-text);
 }
 
 .icon {
@@ -237,7 +243,7 @@ nav {
   font-size: 13px;
   margin-right: 3px;
   z-index: 9999;
-  color: var(--white-text);
+  color: var(--primary-text);
 }
 
 nav ul {
@@ -259,7 +265,7 @@ nav li a {
   gap: 3px;
   justify-content: center;
   align-items: center;
-  color: var(--white-text);
+  color: var(--primary-text);
 }
 
 /* rounded corners on tabs */
@@ -361,7 +367,7 @@ nav li a:last-child {
   align-self: center;
   background-color: var(--main-medium-color);
   position: relative;
-  color: var(--white-text);
+  color: var(--primary-text);
 }
 
 .face-section-outermost-container::before {
@@ -372,7 +378,7 @@ nav li a:last-child {
   width: 100%;
   height: 100%;
   border-radius: 5px;
-  box-shadow: -15px -15px 1px #a966109a;
+  box-shadow: -15px -15px 1px var(--orange-complimetary-color);
   z-index: -1;
 }
 
@@ -426,8 +432,8 @@ nav li a:last-child {
 }
 
 .gitgub-icon {
-  font-size: 27px;
-  padding: 0 8px;
+  font-size: 18px;
+  padding: 5px 8px 0 8px;
   cursor: pointer;
 }
 
@@ -517,20 +523,12 @@ nav li a:last-child {
   }
 
   .gitgub-icon {
-    font-size: 28px;
+    font-size: 20px;
     padding: 0 12px;
   }
 
   /* CALL TO ACTION SECTION */
   .call-to-actions {
-    /* position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 9%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-family: var(--main-font-family); */
     font-size: 20px;
   }
 }
@@ -622,7 +620,7 @@ nav li a:last-child {
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
   overflow: scroll;
-  color: var(--white-text);
+  color: var(--primary-text);
 }
 
 .title-container {
@@ -638,10 +636,10 @@ nav li a:last-child {
   content: "";
   height: 35px;
   width: 35px;
-  background: linear-gradient(to bottom, #da6e2a5f 10%, #da6e2a07);
+  background: linear-gradient(to bottom, #f6a98f 10%, #74747400);
   position: absolute;
   border-radius: 50px;
-  left: -16px;
+  left: -20px;
   top: 2px;
 }
 
@@ -786,24 +784,28 @@ nav li a:last-child {
 
 .project-image-container {
   flex: 1 0 60%;
+  border-radius: 15px;
 }
 
 .project-image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 15px;
 }
 
 /* right styling/////////////////////// */
 .project-image-container-right {
   flex: 1 0 60%;
   order: 2;
+  border-radius: 15px;
 }
 
 .project-image-container-right img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 15px;
 }
 
 /* INFORMATION SIDE */
@@ -827,31 +829,37 @@ nav li a:last-child {
 
 .project-info-container h3 {
   font-family: var(--title-font-family);
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .project-info-container .project-description {
   background-color: var(--main-light-color);
-  padding: 11px;
+  padding: 7px;
   margin-top: 20px;
-  color: #0a1813;
-  font-weight: 500;
+  max-height: 120px;
+  overflow: scroll;
+  color: var(--secondary-text);
+  font-weight: 400;
   font-size: 13px;
   position: absolute;
   left: 290px;
   right: 12px;
+  border-radius: 10px;
 }
 /* for right styling//////////////////////////// */
 .project-info-container .project-description-right {
   background-color: var(--main-light-color);
-  padding: 11px;
+  padding: 7px;
   margin-top: 20px;
-  color: #0a1813;
-  font-weight: 500;
+  max-height: 120px;
+  overflow: scroll;
+  color: var(--secondary-text);
+  font-weight: 400;
   font-size: 13px;
   position: absolute;
   right: 290px;
   left: 12px;
+  border-radius: 10px;
 }
 
 .tools-container {
@@ -861,12 +869,12 @@ nav li a:last-child {
   text-transform: capitalize;
   justify-content: end;
   padding: 20px 0 15px 0;
-  font-size: 15px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .github-projectsite-container p {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-size: 12px;
   text-decoration: underline;
 }
@@ -967,7 +975,8 @@ nav li a:last-child {
   }
 
   .project-info-container h3 {
-    font-size: 25px;
+    color: white;
+    font-size: 23px;
   }
 
   .project-info-container .project-description {
@@ -983,10 +992,19 @@ nav li a:last-child {
   .tools-container {
     justify-content: center;
     padding: 20px 0 25px 0;
+    color: white;
   }
 
   .github-projectsite-container p {
     margin-bottom: 10px;
+    color: white;
+  }
+
+  .github-projectsite-container a {
+    /* border: solid red; */
+    padding: 0 3px 0 0;
+    /* font-size: 16px; */
+    color: white;
   }
 
   .justify-left {
@@ -1329,7 +1347,7 @@ nav li a:last-child {
 
 .location-email-containers p:first-child {
   padding: 10px 15px;
-  background-color: #da6e2ab2;
+  background-color: #f6a98f;
   font-family: var(--main-font-family);
   font-size: 16px;
   font-weight: 300;

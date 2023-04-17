@@ -12,11 +12,12 @@ function App() {
 
   useEffect(() => {
     setLocationChanged(false);
-    console.log("Location changed");
-    console.log(window.location.href);
-    setTimeout(() => {
+
+    const timeOut = setTimeout(() => {
       setLocationChanged(true);
     }, 5000);
+
+    return () => clearTimeout(timeOut);
   }, [location]);
 
   return (
