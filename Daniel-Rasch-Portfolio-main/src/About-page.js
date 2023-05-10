@@ -10,16 +10,19 @@ function AboutPage() {
 
       <div className="bio-container">
         <p>
-          As a Front-End developer with three years of experience in the
-          industry, I have a strong foundation in building websites using
-          technologies like WordPress, HTML, CSS, and JavaScript. In the past
-          year, I have expanded my skillset by learning and using the React
-          library to create mobile-friendly applications. <br />
-          <br /> I am always looking for ways to contribute value to a
-          development team and learn from my colleagues. My main motivations in
-          life are personal growth and recognition from my peers. I believe that
-          with consistency, perseverance, and focus, any goal can be achieved.
-          These values guide me in all aspects of my work and personal life.
+          I am an front-end developer with a background in digital marketing.
+          With almost three years of experience, I specialize in building and
+          maintaining mobile-friendly websites using HTML, CSS, JavaScript, and
+          CMS platforms like WordPress. In the past year, I have expanded my
+          skillset by adopting front-end frameworks like React.js and have used
+          it to build full-fledged mobile-friendly applications. With my
+          marketing background, I bring a unique perspective to development. I
+          am now seeking a role in a dynamic development team where I can
+          contribute my skills and continue to learn from my colleagues. <br />
+          <br /> My main motivators are personal growth and recognition for my
+          hard work. I believe that with consistency, perseverance, and focus,
+          any goal can be achieved. These values guide me in all aspects of my
+          work and personal life.
         </p>
 
         <div className="about-lottie-container">

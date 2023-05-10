@@ -667,6 +667,7 @@ nav li a:last-child {
 
 .bio-container p {
   position: relative;
+  color: black;
 }
 
 .bio-container p::before {
