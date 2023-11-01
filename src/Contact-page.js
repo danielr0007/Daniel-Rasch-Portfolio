@@ -41,7 +41,7 @@ function ContactPage() {
             height: "270px",
             marginBottom: "45px",
           }}
-          src="https://maps.google.com/maps?q=sunrise%20&t=&z=11&ie=UTF8&iwloc=&output=embed"
+          src="https://maps.google.com/maps?q=orlando%20&t=&z=11&ie=UTF8&iwloc=&output=embed"
           frameborder="0"
           scrolling="no"
           marginheight="0"
@@ -49,7 +49,7 @@ function ContactPage() {
         ></iframe>
         <div className="location-email-containers">
           <p>Location</p>
-          <p>Sunrise, Fl, US</p>
+          <p>Orlando, Fl, US</p>
         </div>
         <div className="location-email-containers">
           <p>Email</p>

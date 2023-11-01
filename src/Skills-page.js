@@ -18,7 +18,9 @@ function SkillsPage() {
             skillStyle={"css"}
             image={require("./images/css-logo.png")}
             skillName="CSS3"
-            InterestingOpinion={"3 years of exp. Proficient in flexbox, grid, and media queries."}
+            InterestingOpinion={
+              "3 years of exp. Proficient in flexbox, grid, and media queries."
+            }
           />
           <IndiSkill
             skillStyle={"javascript"}
@@ -52,43 +54,79 @@ function SkillsPage() {
               "1 year of exp. Love using tailwind for most projects that do not require very complex CSS. The ease of use and speed is amazing."
             }
           />
+          <IndiSkill
+            skillStyle={"php"}
+            image={require("./images/php.png")}
+            skillName="Php"
+            InterestingOpinion={
+              "1 year of exp. I use this amazing programming language to handle my backend needs and to make dynamic sites."
+            }
+          />
         </div>
         <div className="left-skills-container">
           <IndiSkill
             skillStyle={"react"}
             image={require("./images/react-logo.png")}
             skillName="React.Js"
-            InterestingOpinion={"2 years of exp. Proficient in using hooks, props, jsx, and many other features that make react a powerful library."}
+            InterestingOpinion={
+              "2 years of exp. Proficient in using hooks, props, jsx, and many other features that make react a powerful library."
+            }
           />
           <IndiSkill
             skillStyle={"github"}
             image={require("./images/github-logo.png")}
             skillName="GitHub"
-            InterestingOpinion={"2 years of exp. Can use it via the Macbook command-line."}
+            InterestingOpinion={
+              "2 years of exp. Can use it via the Macbook command-line."
+            }
           />
           <IndiSkill
             skillStyle={"bootstrap"}
             image={require("./images/bootstrap-logo.png")}
             skillName="Bootstrap"
-            InterestingOpinion={"1 year of exp. Helps to to quickly get a site together."}
+            InterestingOpinion={
+              "1 year of exp. Helps to to quickly get a site together."
+            }
           />
           <IndiSkill
             skillStyle={"photoshop"}
             image={require("./images/photoshop-logo.png")}
             skillName="Photoshop"
-            InterestingOpinion={"5 years of exp. High degree of competence. Use it daily for graphic design assigments"}
+            InterestingOpinion={
+              "5 years of exp. High degree of competence. Use it daily for graphic design assigments"
+            }
           />
           <IndiSkill
             skillStyle={"sass"}
             image={require("./images/sass-logo.png")}
             skillName="Sass"
-            InterestingOpinion={"One year exp using this amazing tool for organizing my CSS"}
+            InterestingOpinion={
+              "One year exp using this amazing tool for organizing my CSS"
+            }
           />
           <IndiSkill
             skillStyle={"git"}
             image={require("./images/git-logo.png")}
             skillName="Git"
-            InterestingOpinion={"2 years of exp. Skilled using the Mac command-line for version control."}
+            InterestingOpinion={
+              "2 years of exp. Skilled using the Mac command-line for version control."
+            }
+          />
+          <IndiSkill
+            skillStyle={"mysql"}
+            image={require("./images/mysql.png")}
+            skillName="MySql"
+            InterestingOpinion={
+              "1 year of exp. Go to database for multiple personal projects."
+            }
+          />
+          <IndiSkill
+            skillStyle={"node"}
+            image={require("./images/node.png")}
+            skillName="Node Js"
+            InterestingOpinion={
+              "1 year of exp. Love using node as my server side language to build MERN stack apps"
+            }
           />
         </div>
       </div>

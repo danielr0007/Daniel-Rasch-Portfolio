@@ -10,19 +10,23 @@ function AboutPage() {
 
       <div className="bio-container">
         <p>
-          I am an front-end developer with a background in digital marketing.
-          With almost three years of experience, I specialize in building and
-          maintaining mobile-friendly websites using HTML, CSS, JavaScript, and
-          CMS platforms like WordPress. In the past year, I have expanded my
-          skillset by adopting front-end frameworks like React.js and have used
-          it to build full-fledged mobile-friendly applications. With my
-          marketing background, I bring a unique perspective to development. I
-          am now seeking a role in a dynamic development team where I can
-          contribute my skills and continue to learn from my colleagues. <br />
+          As a front-end engineer with nearly three years in the field, my
+          expertise lies in the creation and upkeep of mobile-responsive
+          websites utilizing a toolset that includes HTML, CSS, JavaScript,
+          React, and various Content Management Systems, such as WordPress. Over
+          the past year, I have diversified my skill portfolio by incorporating
+          cutting-edge technologies like Node.js, PHP and MySQL, enabling me to
+          craft comprehensive mobile-friendly applications. My distinctive
+          background in digital marketing complements my development prowess,
+          providing me with a unique perspective to enhance user experiences and
+          drive engagement. I am currently in pursuit of an opportunity within a
+          dynamic development team, where I can not only contribute my skill set
+          but also foster continued growth and learning through collaboration
+          with my peers. <br />
           <br /> My main motivators are personal growth and recognition for my
-          hard work. I believe that with consistency, perseverance, and focus,
-          any goal can be achieved. These values guide me in all aspects of my
-          work and personal life.
+          hard work. I believe that with consistency, perseverance, patience and
+          focus, any goal can be achieved. These values guide me in all aspects
+          of my work and personal life.
         </p>
 
         <div className="about-lottie-container">
